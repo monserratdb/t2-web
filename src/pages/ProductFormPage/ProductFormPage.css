@@ -1,0 +1,48 @@
+.product-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.product-form-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.product-form-container form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.product-form-container form input,
+.product-form-container form textarea,
+.product-form-container form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.product-form-container form .error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.product-form-container form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.product-form-container form button:last-child {
+  margin-right: 0;
+}
